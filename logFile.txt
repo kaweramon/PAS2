@@ -1,0 +1,374 @@
+ginga main() remote NCLFILE
+ginga main() COMMAND = 'C:\Program Files (x86)\TeleMidia\Ginga\ginga.exe' NCLFILE = 'C:\Users\Kawe\Documents\GitHub\PAS2\parte2.ncl'
+LocalScreenManager::createScreen argv[9]
+LocalScreenManager::createScreen PARSER argv[0] = 'C:\Program Files (x86)\TeleMidia\Ginga\ginga.exe'
+LocalScreenManager::createScreen PARSER argv[1] = '--ncl'
+LocalScreenManager::createScreen PARSER argv[2] = 'C:\Users\Kawe\Documents\GitHub\PAS2\parte2.ncl'
+LocalScreenManager::createScreen PARSER argv[3] = '--vmode'
+LocalScreenManager::createScreen PARSER argv[4] = '854x480'
+LocalScreenManager::createScreen PARSER argv[5] = '--disable-fkeys'
+LocalScreenManager::createScreen PARSER argv[6] = '--enable-log'
+LocalScreenManager::createScreen PARSER argv[7] = 'file'
+LocalScreenManager::createScreen PARSER argv[8] = '--set-exitonend'
+SDLDeviceScreen::setEmbedFromParent: ''
+SDLDeviceScreen::getWidthResolution returns '854'
+SDLDeviceScreen::getHeightResolution returns '480'
+SDLDeviceScreen::initScreen renderer accelerated by hardware was created
+InputManager::initializeInputIntervalTime imperative = '0' declarative = '200'
+ginga main() NCLFILE = C:\Users\Kawe\Documents\GitHub\PAS2\parte2.ncl
+PresentationEngineManager::openNclFile document process time: 0
+ContextManager::addContextListener
+SystemInfo::getSystemLanguage can't find 'system.language, return por
+SDLDeviceScreen::getWidthResolution returns '854'
+SDLDeviceScreen::getHeightResolution returns '480'
+SDLDeviceScreen::getWidthResolution returns '854'
+SDLDeviceScreen::getHeightResolution returns '480'
+SDLDeviceScreen::getHeightResolution returns '480'
+SDLDeviceScreen::getWidthResolution returns '854'
+PresentationContext::getPropertyValue prop 'default.focusBorderColor' == 'blue'
+PresentationContext::getPropertyValue prop 'default.focusBorderWidth' == '3'
+PresentationContext::getPropertyValue prop 'default.selBorderColor' == 'green'
+PrivateBaseContext::createPrivateBase '-1'
+FormatterMediator::printData(02B86758) screenId: 0 baseId: -1 playerId: C:\Users\Kawe\Documents\GitHub\PAS2\parte2.ncl devClass: 0 x: 0 y: 0 w: 854 h: 480 enableGfx: 1 parentDocId:  docId: 
+FormatterMediator::addDocument(02B86758) call addDocument 'C:\Users\Kawe\Documents\GitHub\PAS2\parte2.ncl'
+PATH = [C:\Users\Kawe\Documents\GitHub\PAS2\]
+parseRegionBase
+>>region: rgTVparseRegion
+>>region: rgVideoparseRegion
+>>region: rgImagem1parseRegion
+>>region: rgTextoparseRegion
+>>region: rgMenuparseRegion
+>>region: rgMenuItem1parseRegion
+>>region: rgMenuItem2parseRegion
+>>region: rgMenuItem3parseRegion
+parseDescriptorBase
+>>descriptor: dVideo
+parseDescriptor
+>>descriptor: dImagem1
+parseDescriptor
+>>descriptorParam: 
+parseDescriptorParam
+>>descriptor: dTexto
+parseDescriptor
+>>descriptor: dImagem2
+parseDescriptor
+>>descriptor: dMenu
+parseDescriptor
+>>descriptorParam: 
+parseDescriptorParam
+>>descriptor: dMenuItem1
+parseDescriptor
+>>descriptor: dMenuItem2
+parseDescriptor
+>>descriptor: dMenuItem3
+parseDescriptor
+parseConnectorBase
+>>causalConnector: OnKeySelectionStopStart
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+parseMedia
+parseMedia
+parseMedia
+parseMedia
+parseMedia
+parseMedia
+parseMedia
+parseMedia
+parseMedia
+posCompileContext
+posCompileContext
+posCompileContext
+parsePort
+parsePort
+parsePort
+parsePort
+posCompileContext
+parseLink
+
+>>bind: 
+parseBind
+>>bindParam: 
+parseBindParam
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+
+>>bind: 
+parseBind
+>>bindParam: 
+parseBindParam
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+
+>>bind: 
+parseBind
+>>bindParam: 
+parseBindParam
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+
+>>bind: 
+parseBind
+>>bindParam: 
+parseBindParam
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+
+>>bind: 
+parseBind
+>>bindParam: 
+parseBindParam
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+
+>>bind: 
+parseBind
+>>bindParam: 
+parseBindParam
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+
+>>bind: 
+parseBind
+>>bindParam: 
+parseBindParam
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+
+>>bind: 
+parseBind
+>>bindParam: 
+parseBindParam
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parsePort
+parsePort
+PrivateBaseContext::addDocument id='parte1' url='C:\Users\Kawe\Documents\GitHub\PAS2\parte2.ncl' all done
+FormatterMediator::getDepUriFromNode checking descriptor 'dVideo'
+FormatterMediator::getDepUriFromNode checking descriptor 'dImagem2'
+FormatterMediator::getDepUriFromNode checking descriptor 'dMenu'
+FormatterMediator::getDepUriFromNode checking descriptor 'dMenuItem1'
+FormatterMediator::getDepUriFromNode checking descriptor 'dMenuItem3'
+FormatterMediator::getDepUriFromNode checking descriptor 'dMenuItem2'
+FormatterMediator::getDepUriFromNode checking descriptor 'dTexto'
+FormatterMediator::getDepUriFromNode checking descriptor 'dTexto'
+FormatterMediator::getDepUriFromNode checking descriptor 'dTexto'
+FormatterMultiDevice::addActiveUris activeBaseUri=C:\Users\Kawe\Documents\GitHub\PAS2\
+ExecutionObject::addEvent '-1_1' in '-1\'
+ExecutionObject::addPresentationEvent in '-1\'. Call transition manager addPresentationEvent for '-1_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\', perspective = '-1' and parent = 'NULL'
+ExecutionObject::addEvent 'parte1_1' in '-1\parte1\'
+ExecutionObject::addPresentationEvent in '-1\parte1\'. Call transition manager addPresentationEvent for 'parte1_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\parte1\', perspective = '-1\parte1' and parent = '-1\'
+FormatterConverter::compileExecutionObjectLinks object = '-1\parte1\'
+CompositeExecutionObject::getUncompiledLinks '-1\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\parte1\video1\dVideo', perspective = '-1\parte1\video1' and parent = '-1\parte1\'
+FormatterConverter::compileExecutionObjectLinks object = '-1\parte1\video1\dVideo'
+CompositeExecutionObject::getUncompiledLinks '-1\parte1\' has '8' uncompiled links
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'video1' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'dVideo'
+CompositeExecutionObject::removeLinkUncompiled ''
+FormatterLinkConverter::createCausalLink inside '-1\parte1\' from ncmlinkId ''
+CascadingDescriptor::~CascadingDescriptor(dVideo)
+ExecutionObject::addEvent 'video1_0_BLUE' in '-1\parte1\video1\dVideo'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\parte1\imagem2\dImagem2', perspective = '-1\parte1\imagem2' and parent = '-1\parte1\'
+ExecutionObject::addEvent 'imagem2_1' in '-1\parte1\imagem2\dImagem2'
+ExecutionObject::addPresentationEvent in '-1\parte1\imagem2\dImagem2'. Call transition manager addPresentationEvent for 'imagem2_1' begin = '0'; end = '1.#INF' position = '-1'
+ExecutionObject::addEvent 'menu_1' in '-1\parte1\menu\'
+ExecutionObject::addPresentationEvent in '-1\parte1\menu\'. Call transition manager addPresentationEvent for 'menu_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\parte1\menu\', perspective = '-1\parte1\menu' and parent = '-1\parte1\'
+FormatterConverter::compileExecutionObjectLinks object = '-1\parte1\menu\'
+CompositeExecutionObject::getUncompiledLinks '-1\parte1\' has '7' uncompiled links
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'menu' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'NULL'
+FormatterConverter::compileExecutionObjectLinks can't process ncmLink '' inside '-1\parte1\'  because '' does not contain 'menu' src
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'menu' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'NULL'
+FormatterConverter::compileExecutionObjectLinks can't process ncmLink '' inside '-1\parte1\'  because '' does not contain 'menu' src
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'menu' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'NULL'
+FormatterConverter::compileExecutionObjectLinks can't process ncmLink '' inside '-1\parte1\'  because '' does not contain 'menu' src
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'menu' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'NULL'
+FormatterConverter::compileExecutionObjectLinks can't process ncmLink '' inside '-1\parte1\'  because '' does not contain 'menu' src
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'menu' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'NULL'
+FormatterConverter::compileExecutionObjectLinks can't process ncmLink '' inside '-1\parte1\'  because '' does not contain 'menu' src
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'menu' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'NULL'
+FormatterConverter::compileExecutionObjectLinks can't process ncmLink '' inside '-1\parte1\'  because '' does not contain 'menu' src
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'menu' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'NULL'
+FormatterConverter::compileExecutionObjectLinks can't process ncmLink '' inside '-1\parte1\'  because '' does not contain 'menu' src
+FormatterConverter::compileExecutionObjectLinks object = '-1\parte1\menu\'
+CompositeExecutionObject::getUncompiledLinks '-1\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\'
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED ''
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'video1' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'dVideo'
+CompositeExecutionObject::removeLinkUncompiled ''
+FormatterLinkConverter::createCausalLink inside '-1\parte1\' from ncmlinkId ''
+CascadingDescriptor::~CascadingDescriptor(dVideo)
+ExecutionObject::addEvent 'video1_0_RED' in '-1\parte1\video1\dVideo'
+CascadingDescriptor::~CascadingDescriptor(dImagem2)
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED ''
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'video1' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'dVideo'
+CompositeExecutionObject::removeLinkUncompiled ''
+FormatterLinkConverter::createCausalLink inside '-1\parte1\' from ncmlinkId ''
+CascadingDescriptor::~CascadingDescriptor(dVideo)
+ExecutionObject::addEvent 'video1_0_1' in '-1\parte1\video1\dVideo'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\parte1\texto1\dTexto', perspective = '-1\parte1\texto1' and parent = '-1\parte1\'
+ExecutionObject::addEvent 'texto1_1' in '-1\parte1\texto1\dTexto'
+ExecutionObject::addPresentationEvent in '-1\parte1\texto1\dTexto'. Call transition manager addPresentationEvent for 'texto1_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED ''
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'video1' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'dVideo'
+CompositeExecutionObject::removeLinkUncompiled ''
+FormatterLinkConverter::createCausalLink inside '-1\parte1\' from ncmlinkId ''
+CascadingDescriptor::~CascadingDescriptor(dVideo)
+ExecutionObject::addEvent 'video1_0_2' in '-1\parte1\video1\dVideo'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\parte1\texto2\dTexto', perspective = '-1\parte1\texto2' and parent = '-1\parte1\'
+ExecutionObject::addEvent 'texto2_1' in '-1\parte1\texto2\dTexto'
+ExecutionObject::addPresentationEvent in '-1\parte1\texto2\dTexto'. Call transition manager addPresentationEvent for 'texto2_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED ''
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'video1' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'dVideo'
+CompositeExecutionObject::removeLinkUncompiled ''
+FormatterLinkConverter::createCausalLink inside '-1\parte1\' from ncmlinkId ''
+CascadingDescriptor::~CascadingDescriptor(dVideo)
+ExecutionObject::addEvent 'video1_0_3' in '-1\parte1\video1\dVideo'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\parte1\texto3\dTexto', perspective = '-1\parte1\texto3' and parent = '-1\parte1\'
+ExecutionObject::addEvent 'texto3_1' in '-1\parte1\texto3\dTexto'
+ExecutionObject::addPresentationEvent in '-1\parte1\texto3\dTexto'. Call transition manager addPresentationEvent for 'texto3_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED ''
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'video1' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'dVideo'
+CompositeExecutionObject::removeLinkUncompiled ''
+FormatterLinkConverter::createCausalLink inside '-1\parte1\' from ncmlinkId ''
+CascadingDescriptor::~CascadingDescriptor(dVideo)
+CascadingDescriptor::~CascadingDescriptor(dTexto)
+CascadingDescriptor::~CascadingDescriptor(dImagem2)
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED ''
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'video1' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'dVideo'
+CompositeExecutionObject::removeLinkUncompiled ''
+FormatterLinkConverter::createCausalLink inside '-1\parte1\' from ncmlinkId ''
+CascadingDescriptor::~CascadingDescriptor(dVideo)
+CascadingDescriptor::~CascadingDescriptor(dTexto)
+CascadingDescriptor::~CascadingDescriptor(dImagem2)
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED ''
+FormatterConverter::compileExecutionObjectLinks processing ncmLink '' inside '-1\parte1\'
+Link::containsNode searching 'video1' inside link '' (1 condition binds)
+Link::containsNode link '' has 'video1' with descriptor = 'dVideo'
+CompositeExecutionObject::removeLinkUncompiled ''
+FormatterLinkConverter::createCausalLink inside '-1\parte1\' from ncmlinkId ''
+CascadingDescriptor::~CascadingDescriptor(dVideo)
+CascadingDescriptor::~CascadingDescriptor(dTexto)
+CascadingDescriptor::~CascadingDescriptor(dImagem2)
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED ''
+FormatterConverter::compileExecutionObjectLinks object = '-1\parte1\video1\dVideo'
+CompositeExecutionObject::getUncompiledLinks '-1\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\'
+ExecutionObject::addEvent 'video1_1' in '-1\parte1\video1\dVideo'
+ExecutionObject::addPresentationEvent in '-1\parte1\video1\dVideo'. Call transition manager addPresentationEvent for 'video1_1' begin = '0'; end = '1.#INF' position = '-1'
+CascadingDescriptor::~CascadingDescriptor(dImagem2)
+FormatterMediator::initializeSettingNodes checking 'video1'
+FormatterMediator::initializeSettingNodes checking 'imagem2'
+FormatterMediator::initializeSettingNodes checking 'menu'
+FormatterMediator::initializeSettingNodes checking 'Imagemmenu'
+FormatterMediator::initializeSettingNodes checking 'textoGRU'
+FormatterMediator::initializeSettingNodes checking 'textoJPA'
+FormatterMediator::initializeSettingNodes checking 'textoPOA'
+FormatterMediator::initializeSettingNodes checking 'texto1'
+FormatterMediator::initializeSettingNodes checking 'texto2'
+FormatterMediator::initializeSettingNodes checking 'texto3'
+PresentationEngineManager::startPresentation
+PresentationEngineManager::getNclPlayer
+PresentationEngineManager::startPresentation play 'C:\Users\Kawe\Documents\GitHub\PAS2\parte2.ncl'
+FormatterScheduler::startDocument Through event 'parte1_1'
+PresentationContext::getPropertyValue prop 'default.focusBorderTransparency' == '0'
+PresentationContext::getPropertyValue prop 'default.focusBorderColor' == 'blue'
+PresentationContext::getPropertyValue prop 'default.focusBorderWidth' == '3'
+PresentationContext::getPropertyValue prop 'default.selBorderColor' == 'green'
+FormatterScheduler::runAction acquiring player for '-1\parte1\video1\dVideo' PlayerAdapterManager::getPlayerClass is finding a suitable player
+FormatterPlayerAdapter::hasPrepared return false because object = '00000000' and player = '00000000'
+RuleAdapter::adaptDescriptor for '-1\parte1\video1\dVideo'
+RuleAdapter::adaptDescriptor first unsolved descriptor address '00000000'
+FormatterPlayerAdapter::hasPrepared return false because object = '00000000' and player = '00000000'
+AVPlayer::createProvider 'C:\Users\Kawe\Documents\GitHub\PAS2\media\480-cnn.mp4'
+fileExists is false: can't access 'C:\Users\Kawe\Documents\GitHub\PAS2\media\480-cnn.mp4'
+AVPlayer::createProvider 'C:\Users\Kawe\Documents\GitHub\PAS2\media\480-cnn.mp4' all done
+FormatterPlayerAdapter::createPlayer for 'C:\Users\Kawe\Documents\GitHub\PAS2\media\480-cnn.mp4' object = '-1\parte1\video1\dVideo' objectDevice = '0'
+ExecutionObject::prepare(-1\parte1\video1\dVideo) 2nd call addEventListener '02B9BB50' or '02B9BC2C'
+Player::setScope 'video1'
+AVPlayer::createProvider 'C:\Users\Kawe\Documents\GitHub\PAS2\media\480-cnn.mp4'
+fileExists is false: can't access 'C:\Users\Kawe\Documents\GitHub\PAS2\media\480-cnn.mp4'
+AVPlayer::createProvider 'C:\Users\Kawe\Documents\GitHub\PAS2\media\480-cnn.mp4' all done
+AVPlayer::getSurface() can't create provider
+FormatterLayout::prepareFormatterRegion for '-1\parte1\video1\dVideo'
+FormatterRegion::prepareOutputDisplay '02BB2BF0' created with left   = '0' top    = '0' width  = '854' height = '480' 
+FormatterLayout::prepareFormatterRegion deviceRegion class is '0'
+AVPlayer::play() can't play, provider is NULL
+FormatterScheduler::runAction can't start '-1\parte1\video1\dVideo'
+LinkSimpleAction::~LinkSimpleAction
+FormatterConverter::compileExecutionObjectLinks object = '-1\parte1\imagem2\dImagem2'
+CompositeExecutionObject::getUncompiledLinks '-1\parte1\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\parte1\'
+FormatterConverter::compileExecutionObjectLinks object = '-1\parte1\'
+CompositeExecutionObject::getUncompiledLinks '-1\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\'
+FormatterScheduler::runAction acquiring player for '-1\parte1\imagem2\dImagem2' PlayerAdapterManager::getPlayerClass is finding a suitable player
+FormatterPlayerAdapter::hasPrepared return false because object = '00000000' and player = '00000000'
+RuleAdapter::adaptDescriptor for '-1\parte1\imagem2\dImagem2'
+RuleAdapter::adaptDescriptor first unsolved descriptor address '00000000'
+FormatterPlayerAdapter::hasPrepared return false because object = '00000000' and player = '00000000'
+ImagePlayerAdapter::createPlayer 'C:\Users\Kawe\Documents\GitHub\PAS2\media\interactive.png'
+fileExists is false: can't access 'C:\Users\Kawe\Documents\GitHub\PAS2\media\interactive.png'
+ImagePlayer trying to find 'C:\Users\Kawe\Documents\GitHub\PAS2\media\interactive.png'
